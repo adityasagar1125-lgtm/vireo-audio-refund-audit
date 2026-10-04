@@ -44,7 +44,7 @@ python refunds.py --data . --out out
 python validate.py --data .
 
 # 5. Launch the interactive executive dashboard
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---

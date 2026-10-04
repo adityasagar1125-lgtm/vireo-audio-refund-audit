@@ -32,7 +32,7 @@ python refunds.py --data . --out out
 python validate.py --data .
 
 # 4. (Optional) Launch the interactive executive dashboard
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 * **Execution Speed:** Complete data cleaning, NLP training, audit generation, and Excel compilation finishes in under **8 seconds**.
