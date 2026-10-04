@@ -1,0 +1,67 @@
+ticket_id,refund_inr,agent_notes,ai_suggested_code,ai_confidence,human_verified_code
+TK-252020,3499.0,Cx says pkp not done. Checked pkp AWB. Refunded Rs 3499. Cx satisfied on chat. | Refunded. Replacement request rejected as per policy.,RETURN-QC-OK,0.9325794706197456,
+TK-250428,1274.0,"Customer reached out - shipment not received. Checked AWB with courier. RTO confirmed, reshipped. rfnd processed to source; replacement unit also shipped. //AIS",REVIEW (low confidence),0.43338702276776175,
+TK-246175,945.0,"Contact re paymetn debited, no ord. Asked for UTR. Refunded Rs 945. Case closed w/ cx consent.",DUP-PAYMENT,0.9068021376498279,
+TK-250701,2249.0,"l bud no charge in case | asked cx to clean charing pins -> reset resolved, cx conf left bud charging | xfer chat frontline. -- refund + rplc, cx escalation avoided. ~Tenzin",REVIEW (low confidence),0.5760240876340332,
+TK-253561,2124.0,ticket raised for reverse pickup pending. re-raised pickup with crr. rfnd processed without pickup as goodwill.,RETURN-QC-OK,0.6606993343283214,
+TK-246612,617.0,issue: strap damage | checked warranty eligibility -> replacement strap dispatched,WTY-BUYBACK,0.6084774075451995,
+TK-251070,3499.0,issue: cancellation request | cancelled beore dispatch -> full refund processed (3499) ~Krishna,CANCEL,0.9264569619069226,
+TK-253354,3499.0,"1. Refund pending
+2. Checked reverse pickup QC status
+3. Refunded Rs 3499.
+rfnd issued; rplc not applicable (out of stock).",RETURN-QC-OK,0.9739511759210108,
+TK-253929,2124.0,"payment debited, no order | confirmed with payment gateway -> order manually created ~Krishna",DUP-PAYMENT,0.9308512073882376,
+TK-246247,500.0,"Reported: unit rcvd damaged. Checked with crr for damage claim. rfnd approved, Rs 500, 5-7 working days. //AIS",DOA-REPL,0.9524131882638361,
+TK-249996,1999.0,see prev,RETURN-QC-OK,0.8936271386550907,
+TK-245494,3499.0,"re: double charge | chk pg for duplicate txn -> rfnd approved, rs 3499, 5-7 working days",DUP-PAYMENT,0.9903399849535692,
+TK-253748,3324.0,Cx reported rfnd pending. Checkde reveres pkp QC status. Refunded Rs 3324. Case closed w/ cx consent.,RETURN-QC-OK,0.6706809917452902,
+TK-253466,712.0,"rfnd approved, rs 712, 5-7 working days",DUP-PAYMENT,0.9620495073616506,
+TK-242715,900.0,"1. pkp not done
+2. Re-raised pkp w/ courier
+3. Full refund processed (900)",RETURN-QC-OK,0.9621785225848707,
+TK-244746,712.0,"1. Failed order after payment
+2. Asked for UTR
+3. Order manually created",DUP-PAYMENT,0.9637228956781505,
+TK-242544,5849.0,"1. rfnd not credited
+2. Checked rfnd status on PG
+3. ARN shared with cx (SOP 4.2)",RETURN-QC-OK,0.9280109117973442,
+TK-241220,6649.0,re: double charge | confirmde utrs -> refund of rs 6649 initiated to sorce ~Rohit,DUP-PAYMENT,0.7538021730927362,
+TK-240879,1799.0,"1. Refund delay
+2. chk refund status on PG
+3. Refund reprocessed",RETURN-QC-OK,0.9860153432607515,
+TK-243401,3324.0,"1. double charge
+2. confirmed utrs
+3. rfnd of rs 3324 initiated to source",DUP-PAYMENT,0.9248685230937579,
+TK-252188,379.0,"1. Damaged in transit
+2. Photos received, damage confirmed
+3. Refunded Rs 379",DOA-REPL,0.9883569460781236,
+TK-246145,2499.0,"1. duplicate payment
+2. checked pg for duplicate txn
+3. full refund processed (2499)",DUP-PAYMENT,0.9665151356889367,
+TK-249172,2499.0,"re-shipped from warehouse. issue: delivery delayed. raised ticket with courier partner. -- issued refund + replacement both, tl aware. -RM",REVIEW (low confidence),0.46776108036686787,
+TK-246139,6998.0,"re-pair successful, resolved on chat. issue: device not discoverable. checked phone os version.
+issued refund + replacement both, tl aware. -VB",DOA-REPL,0.6002587203819889,
+TK-246601,1187.0,"1. amount deducted without ord
+2. chk pg dashboard for txn
+3. full rfnd processed (1187)",DUP-PAYMENT,0.9706775421329684,
+TK-244010,2374.0,arn shared with cx. issue: refund not credited. checked reverse pickup qc status. via chat frontline. -VB,RETURN-QC-OK,0.9499866202053603,
+TK-242302,1274.0,rslvd on call (sop 2.7),DUP-PAYMENT,0.7811668391663352,
+TK-246357,1799.0,Cx says amount deducted without ord. Asked for UTR. ord manually created. Case closed w/ cx consent.,DUP-PAYMENT,0.9744355412711091,
+TK-245577,2600.0,rfnd of Rs 2600 initiated to source. Issue: ord cancellation. Cancelled before dispatch.,CANCEL,0.9856687364867717,
+TK-240984,1799.0,cx: fw update failed | asked cx to keep in case 30 min -> refunded rs 1799,REVIEW (low confidence),0.5559489678670715,
+TK-243586,1799.0,"1. duplicate payment
+2. confirmed utrs
+3. duplicate refunded to source",DUP-PAYMENT,0.9085727629453909,
+TK-249373,2374.0,Refund of Rs 2374 initiated to source. Issue: pkp missed. Re-raised pkp w/ courier.,RETURN-QC-OK,0.9496505702317057,
+TK-247503,1709.0,duplicate refunded to source. issue: charged twice. checked pg for duplicate txn. ~Rohit,DUP-PAYMENT,0.9246029698421567,
+TK-247468,1104.0,Cust contacted re cancellation request. Cancelled before dispatch. Refunded Rs 1104. Follow-up not required. (SOP 5.4) -KS,CANCEL,0.9180341984238641,
+TK-248575,1799.0,"Reported: failed ord affter payment. chk PG dashboard for txn. rfd approved, Rs 1799, 5-7 working days. Follow-up not required.",DUP-PAYMENT,0.9694848582991134,
+TK-248803,926.0,"Contact re refund delay. Checked refund status on PG. Refund approved, Rs 926, 5-7 working days. Cx informed.",RETURN-QC-OK,0.9615585406473564,
+TK-244840,2974.0,"Refund approved, Rs 2974, 5-7 wroking days. Issue: cancellation request. Cancelled before dispatch. -AD",CANCEL,0.9699931533142147,
+TK-241118,1187.0,done. refund issued; replacement not applicable (out of stock).,REVIEW (low confidence),0.5971553377063351,
+TK-247767,3499.0,"1. Refund delay
+2. Checked reverse pickup QC status
+3. Refund of Rs 3499 initiated to source",RETURN-QC-OK,0.9637907344822642,
+TK-248327,2974.0,"1. ord not delivered
+2. conf address with cx
+3. Refund initiated as lost in transit",REVIEW (low confidence),0.49993724805488043,
