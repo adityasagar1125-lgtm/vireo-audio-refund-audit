@@ -155,7 +155,7 @@ with tabs[0]:
         ])
         st.dataframe(
             waterfall_df.style.format({"Amount (INR)": "₹{:,.2f}"}),
-            use_container_width=True,
+            width='stretch',
             hide_index=True
         )
 
@@ -176,7 +176,7 @@ with tabs[0]:
     ).reset_index()
     st.dataframe(
         q_summary.style.format({"total_refund": "₹{:,.2f}", "avg_refund": "₹{:,.2f}"}),
-        use_container_width=True,
+        width='stretch',
         hide_index=True
     )
 
@@ -211,7 +211,7 @@ with tabs[1]:
 
     st.dataframe(
         q_perf.style.format({"total_refund_inr": "₹{:,.0f}", "avg_csat": "{:.2f}", "refund_rate_pct": "{:.1f}%"}),
-        use_container_width=True,
+        width='stretch',
         hide_index=True
     )
 
@@ -237,7 +237,7 @@ with tabs[2]:
             tickets=('ticket_id', 'count'),
             total_inr=('refund_inr', 'sum')
         ).sort_values('total_inr', ascending=False).reset_index()
-        st.dataframe(as_coded.style.format({"total_inr": "₹{:,.0f}"}), use_container_width=True, hide_index=True)
+        st.dataframe(as_coded.style.format({"total_inr": "₹{:,.0f}"}), width='stretch', hide_index=True)
 
     with col_rc2:
         st.write("**AI NLP Audited Reason Codes (Re-Classified from Notes)**")
@@ -245,7 +245,7 @@ with tabs[2]:
             tickets=('ticket_id', 'count'),
             total_inr=('refund_inr', 'sum')
         ).sort_values('total_inr', ascending=False).reset_index()
-        st.dataframe(ai_audited.style.format({"total_inr": "₹{:,.0f}"}), use_container_width=True, hide_index=True)
+        st.dataframe(ai_audited.style.format({"total_inr": "₹{:,.0f}"}), width='stretch', hide_index=True)
 
     st.info("""
     **Operational Solution for Support Ops (Neha Kulkarni):**
@@ -283,7 +283,7 @@ with tabs[3]:
             tickets=('ticket_id', 'count'),
             total_leak=('total_leak_inr', 'sum')
         ).sort_values('tickets', ascending=False).reset_index()
-        st.dataframe(team_dd.style.format({"total_leak": "₹{:,.0f}"}), use_container_width=True, hide_index=True)
+        st.dataframe(team_dd.style.format({"total_leak": "₹{:,.0f}"}), width='stretch', hide_index=True)
 
     with c_prod:
         st.write("**Double Payouts by Product Family**")
@@ -291,7 +291,7 @@ with tabs[3]:
             tickets=('ticket_id', 'count'),
             total_leak=('total_leak_inr', 'sum')
         ).sort_values('tickets', ascending=False).reset_index()
-        st.dataframe(prod_dd.style.format({"total_leak": "₹{:,.0f}"}), use_container_width=True, hide_index=True)
+        st.dataframe(prod_dd.style.format({"total_leak": "₹{:,.0f}"}), width='stretch', hide_index=True)
 
     st.write("---")
     st.write("**Audit Trail of Violation Tickets**")
@@ -299,7 +299,7 @@ with tabs[3]:
         dd_l4[['ticket_id', 'month', 'agent_team', 'agent_name', 'family', 'refund_inr', 'replacement_cost_inr', 'total_leak_inr', 'agent_notes']]
         .sort_values('total_leak_inr', ascending=False)
         .style.format({"refund_inr": "₹{:,.0f}", "replacement_cost_inr": "₹{:,.0f}", "total_leak_inr": "₹{:,.0f}"}),
-        use_container_width=True,
+        width='stretch',
         hide_index=True
     )
 
@@ -362,6 +362,6 @@ with tabs[5]:
 
     st.dataframe(
         ag_summary.style.format({"total_refund_inr": "₹{:,.0f}"}),
-        use_container_width=True,
+        width='stretch',
         hide_index=True
     )
